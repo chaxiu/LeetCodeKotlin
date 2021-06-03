@@ -1,4 +1,4 @@
 package com.boycoder.utils
 
-class WrongResultException(): Exception() {
+class WrongResultException(msg: String): Exception(msg) {
 }
