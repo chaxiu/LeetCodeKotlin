@@ -9,9 +9,9 @@ import com.boycoder.utils.asserts
  */
 /**
 Ideal
-    For an array, we pick a position to generate the BST, the left side become left child, right side become right child.
+    For an array, we pick a position to generate the BST,
+    the left side become left child, right side become right child.
     For the child, it can split until it become 1
-
  */
 object Med_096_UniqueBST {
     private var cache = intArrayOf()
