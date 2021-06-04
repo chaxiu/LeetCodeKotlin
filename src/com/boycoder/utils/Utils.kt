@@ -5,5 +5,20 @@ fun asserts(res: Any?, expect: Any?) {
         throw WrongResultException("\n" +
                 "=================\n" +
                 "res: $res \nexpect: $expect")
+    } else {
+        println("success")
     }
+}
+
+/**
+ * increase
+ */
+fun isSorted(array: IntArray): Boolean {
+    for (i in 1 until array.size) {
+        if (array[i - 1] > array[i]) {
+            return false
+        }
+    }
+
+    return true
 }

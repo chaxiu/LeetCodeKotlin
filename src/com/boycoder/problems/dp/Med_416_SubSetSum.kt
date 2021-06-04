@@ -24,7 +24,7 @@ object Med_416_SubSetSum {
         if (numSum % 2 != 0) {
             return false
         }
-//        return dfs(0, 0)
+//        return dfs1(0, 0)
         return canPart(array.size - 1, numSum / 2)
     }
 
@@ -63,6 +63,30 @@ object Med_416_SubSetSum {
         }
 
         return dp[m][n] == numSum / 2
+    }
+
+    // dfs + cache
+    private fun dfs1(sum: Int, start: Int): Boolean {
+        if (sum * 2 == numSum) {
+            return true
+        }
+
+        if (sum * 2 > numSum) {
+            return false
+        }
+
+        if (start >= array.size) {
+            return false
+        }
+
+        val key = "${sum}.$start"
+        if (map.containsKey(key)) {
+            return map.getOrDefault(key, false)
+        }
+
+        val res = dfs1(sum, start + 1) || dfs1(sum + array[start], start + 1)
+        map[key] = res
+        return res
     }
 
     // This is another way to generate combination
