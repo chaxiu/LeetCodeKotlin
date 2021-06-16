@@ -85,7 +85,15 @@
 | ✅ | Med_063_UniquePathII | [3 Solutions](src/com/boycoder/problems/dp/Med_063_UniquePathII.kt) |
 | ✅ | Med_096_UniqueBST | [3 Solutions](src/com/boycoder/problems/dp/Med_096_UniqueBST.kt) |
 | ✅ | Med_343_IntegerBreak | [3 Solutions](src/com/boycoder/problems/dp/Med_343_IntegerBreak.kt) |
-| ✅ | Med_416_SubSetSum | [3 Solutions](src/com/boycoder/problems/dp/Med_416_SubSetSum.kt) |
+| ✅ | Med_416_SubSetSum | [3 Solutions](src/com/boycoder/problems/dp/knapsack/Med_416_SubSetSum.kt) |
+| ✅ | Med_494_TargetSum | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_494_TargetSum.kt) |
+| ✅ | Med_1049_LastStoneWeight | [5 Solutions](src/com/boycoder/problems/dp/knapsack/Med_1049_LastStoneWeight.kt) |
+| ✅ | Med_474_ZeroAndOne | [8 Solutions](src/com/boycoder/problems/dp/knapsack/Med_474_ZeroAndOne.kt) |
+| ✅ | Med_518_CoinChangeII | [6 Solutions](src/com/boycoder/problems/dp/knapsack/Med_518_CoinChangeII.kt) |
+| ✅ | Med_377_CombinationSumIV | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_377_CombinationSumIV.kt) |
+| ✅ | Med_322_CoinChange | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_322_CoinChange.kt) |
+| ✅ | Med_279_PerfectSquares | [6 Solutions](src/com/boycoder/problems/dp/knapsack/Med_279_PerfectSquares.kt) |
+| ✅ | Med_139_WordBreak | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_139_WordBreak.kt) |
 
 ## Basic Data Structure
 

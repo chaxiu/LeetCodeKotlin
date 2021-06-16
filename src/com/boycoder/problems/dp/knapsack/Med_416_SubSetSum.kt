@@ -1,4 +1,4 @@
-package com.boycoder.problems.dp
+package com.boycoder.problems.dp.knapsack
 
 import com.boycoder.utils.asserts
 
@@ -6,6 +6,7 @@ import com.boycoder.utils.asserts
  * @Author: zhutao
  * @datetime: 2021/6/3
  * @desc: Knapsack problems
+ * https://leetcode-cn.com/problems/partition-equal-subset-sum/
  *
  *      For some stuff, weigh[i], value[j], capacity = n
  *      dp[i][j] = max (dp[i - 1][j], dp[i - 1][j - weigh[i]] + value[i])
@@ -158,7 +159,7 @@ object Med_416_SubSetSum {
             return false
         }
 
-
+        // choose or not choose
         val res = dfs(sum, start + 1) || dfs(sum + array[start], start + 1)
         return res
     }

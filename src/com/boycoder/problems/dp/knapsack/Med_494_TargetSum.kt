@@ -1,4 +1,4 @@
-package com.boycoder.problems.dp
+package com.boycoder.problems.dp.knapsack
 
 import com.boycoder.utils.asserts
 
@@ -47,6 +47,8 @@ object Med_494_TargetSum {
         dp[0] = 1
 
         for (i in 0..num) {
+            // from end to start
+            // Every element pick only once
             for (j in capacity downTo array[i]) {
                 dp[j] = dp[j] + dp[j - array[i]]
             }
@@ -57,7 +59,6 @@ object Med_494_TargetSum {
 
     /**
      *    0     1
-     * 0  1     0
      * 0  2     0
      * 0  4     0
      * 0  8     0
@@ -65,7 +66,8 @@ object Med_494_TargetSum {
      * 0  32    0
      * 0  64    0
      * 0  128   0
-     * 1  128   256
+     * 0  256   0
+     * 1  256   256
      */
     private fun find3(num: Int, capacity: Int): Int {
         val dp = Array(num + 1){ IntArray(capacity + 1) }

@@ -1,4 +1,4 @@
-package com.boycoder.problems.dp
+package com.boycoder.problems.dp.knapsack
 
 import com.boycoder.utils.asserts
 
@@ -64,7 +64,7 @@ object Med_1049_LastStoneWeight {
      * More details is here: [Med_416_SubSetSum.canPart]
      *
      * Although the code we write is one dimension array,
-     * we should keep two demension array in our mind.
+     * we should keep two dimension array in our mind.
      */
     private fun lastWeight4(num: Int, capacity: Int): Int {
         val dp = IntArray(capacity + 1)
