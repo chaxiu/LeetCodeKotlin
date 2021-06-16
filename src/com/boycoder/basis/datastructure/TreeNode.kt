@@ -5,4 +5,4 @@ package com.boycoder.basis.datastructure
  * @datetime: 2021/6/4
  * @desc:
  */
-data class TreeNode(var value: Int, var left: TreeNode?, var right: TreeNode?)
+data class TreeNode(var value: Int, var left: TreeNode? = null, var right: TreeNode? = null)

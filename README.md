@@ -85,6 +85,9 @@
 | ✅ | Med_063_UniquePathII | [3 Solutions](src/com/boycoder/problems/dp/Med_063_UniquePathII.kt) |
 | ✅ | Med_096_UniqueBST | [3 Solutions](src/com/boycoder/problems/dp/Med_096_UniqueBST.kt) |
 | ✅ | Med_343_IntegerBreak | [3 Solutions](src/com/boycoder/problems/dp/Med_343_IntegerBreak.kt) |
+
+| State | Knapsack Problems | Solutions |
+| --- | --- | --- |
 | ✅ | Med_416_SubSetSum | [3 Solutions](src/com/boycoder/problems/dp/knapsack/Med_416_SubSetSum.kt) |
 | ✅ | Med_494_TargetSum | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_494_TargetSum.kt) |
 | ✅ | Med_1049_LastStoneWeight | [5 Solutions](src/com/boycoder/problems/dp/knapsack/Med_1049_LastStoneWeight.kt) |
@@ -93,7 +96,26 @@
 | ✅ | Med_377_CombinationSumIV | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_377_CombinationSumIV.kt) |
 | ✅ | Med_322_CoinChange | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_322_CoinChange.kt) |
 | ✅ | Med_279_PerfectSquares | [6 Solutions](src/com/boycoder/problems/dp/knapsack/Med_279_PerfectSquares.kt) |
-| ✅ | Med_139_WordBreak | [4 Solutions](src/com/boycoder/problems/dp/knapsack/Med_139_WordBreak.kt) |
+| ✅ | Med_139_WordBreak | [5 Solutions](src/com/boycoder/problems/dp/knapsack/Med_139_WordBreak.kt) |
+
+| State | House Robber Problems | Solutions |
+| --- | --- | --- |
+| ✅ | Med_198_HouseRobber | [3 Solutions](src/com/boycoder/problems/dp/robber/Med_198_HouseRobber.kt) |
+| ✅ | Med_213_HouseRobberII | [3 Solutions](src/com/boycoder/problems/dp/robber/Med_213_HouseRobberII.kt) |
+| ✅ | Med_337_HouseRobberIII | [4 Solutions](src/com/boycoder/problems/dp/robber/Med_337_HouseRobberIII.kt) |
+
+| State | Stock Problems | Solutions |
+| --- | --- | --- |
+| ✅ | Med_121_SellStock | [4 Solutions](src/com/boycoder/problems/dp/stock/Med_121_SellStock.kt) |
+| ✅ | Med_122_SellStockII | [2 Solutions](src/com/boycoder/problems/dp/stock/Med_122_SellStockII.kt) |
+| ✅ | Med_123_SellStockIII | [1 Solution](src/com/boycoder/problems/dp/stock/Med_123_SellStockIII.kt) |
+| ✅ | Med_188_SellStockIV | [1 Solution](src/com/boycoder/problems/dp/stock/Med_188_SellStockIV.kt) |
+| ✅ | Med_309_SellStockCoolDown | [1 Solution](src/com/boycoder/problems/dp/stock/Med_309_SellStockCoolDown.kt) |
+| ✅ | Med_714_SellStockFee | [1 Solution](src/com/boycoder/problems/dp/stock/Med_714_SellStockFee.kt) |
+
+| State | Stock Problems | Solutions |
+| --- | --- | --- |
+| ✅ | Med_121_SellStock | [4 Solutions](src/com/boycoder/problems/dp/stock/Med_121_SellStock.kt) |
 
 ## Basic Data Structure
 
