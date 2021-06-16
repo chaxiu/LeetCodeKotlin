@@ -76,7 +76,9 @@
 
 ## Dynamic Programming
 
-| State | Dynamic Programming Problems | Solutions |
+### Fibonacci
+
+| State | Fibonacci Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Easy_509_Fibonacci | [4 Solutions](src/com/boycoder/problems/dp/Easy_509_Fibonacci.kt) |
 | ✅ | Easy_070_ClimbStairs | [2 Solutions](src/com/boycoder/problems/dp/Easy_070_ClimbStairs.kt) |
@@ -85,6 +87,8 @@
 | ✅ | Med_063_UniquePathII | [3 Solutions](src/com/boycoder/problems/dp/Med_063_UniquePathII.kt) |
 | ✅ | Med_096_UniqueBST | [3 Solutions](src/com/boycoder/problems/dp/Med_096_UniqueBST.kt) |
 | ✅ | Med_343_IntegerBreak | [3 Solutions](src/com/boycoder/problems/dp/Med_343_IntegerBreak.kt) |
+
+### Knapsack
 
 | State | Knapsack Problems | Solutions |
 | --- | --- | --- |
@@ -98,11 +102,15 @@
 | ✅ | Med_279_PerfectSquares | [6 Solutions](src/com/boycoder/problems/dp/knapsack/Med_279_PerfectSquares.kt) |
 | ✅ | Med_139_WordBreak | [5 Solutions](src/com/boycoder/problems/dp/knapsack/Med_139_WordBreak.kt) |
 
+### House Robber
+
 | State | House Robber Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Med_198_HouseRobber | [3 Solutions](src/com/boycoder/problems/dp/robber/Med_198_HouseRobber.kt) |
 | ✅ | Med_213_HouseRobberII | [3 Solutions](src/com/boycoder/problems/dp/robber/Med_213_HouseRobberII.kt) |
 | ✅ | Med_337_HouseRobberIII | [4 Solutions](src/com/boycoder/problems/dp/robber/Med_337_HouseRobberIII.kt) |
+
+### Stock
 
 | State | Stock Problems | Solutions |
 | --- | --- | --- |
@@ -113,7 +121,9 @@
 | ✅ | Med_309_SellStockCoolDown | [1 Solution](src/com/boycoder/problems/dp/stock/Med_309_SellStockCoolDown.kt) |
 | ✅ | Med_714_SellStockFee | [1 Solution](src/com/boycoder/problems/dp/stock/Med_714_SellStockFee.kt) |
 
-| State | Stock Problems | Solutions |
+### Subsequence
+
+| State | Subsequence Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Med_300_LongestIncreasingSubsequence | [1 Solution](src/com/boycoder/problems/dp/subsequence/Med_300_LongestIncreasingSubsequence.kt) |
 | ✅ | Med_674_LongestIncreasingSubsequenceII | [2 Solution](src/com/boycoder/problems/dp/subsequence/Med_674_LongestIncreasingSubsequenceII.kt) |
