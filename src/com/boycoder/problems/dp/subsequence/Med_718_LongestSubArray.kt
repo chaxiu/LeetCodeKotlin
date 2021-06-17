@@ -6,6 +6,7 @@ import com.boycoder.utils.asserts
  * @Author: zhutao
  * @datetime: 2021/6/16
  * @desc: https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
+ * dfs + dp
  */
 object Med_718_LongestSubArray {
 

@@ -126,8 +126,9 @@
 | State | Subsequence Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Med_300_LongestIncreasingSubsequence | [1 Solution](src/com/boycoder/problems/dp/subsequence/Med_300_LongestIncreasingSubsequence.kt) |
-| ✅ | Med_674_LongestIncreasingSubsequenceII | [2 Solution](src/com/boycoder/problems/dp/subsequence/Med_674_LongestIncreasingSubsequenceII.kt) |
+| ✅ | Med_674_LongestIncreasingSubsequenceII | [3 Solution](src/com/boycoder/problems/dp/subsequence/Med_674_LongestIncreasingSubsequenceII.kt) |
 | ✅ | Med_718_LongestSubArray | [2 Solution](src/com/boycoder/problems/dp/subsequence/Med_718_LongestSubArray.kt) |
+| ✅ | Med_1143_LongestCommonSubsequence | [3 Solution](src/com/boycoder/problems/dp/subsequence/Med_1143_LongestCommonSubsequence.kt) |
 
 ## Basic Data Structure
 

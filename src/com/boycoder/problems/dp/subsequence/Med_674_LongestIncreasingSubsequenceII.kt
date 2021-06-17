@@ -66,11 +66,33 @@ object Med_674_LongestIncreasingSubsequenceII {
 
         return max
     }
+
+    /**
+     * Brute Force + pruning
+     * We assume the longest subsequence should start from i
+     * And we loop j [i + 1, size), if (array[i] > array[i - 1]) count++ else break
+     */
+    private fun find2(array: IntArray): Int {
+        var max = 0
+
+        for (i in 0 until array.size) {
+            var count = 1
+            for (j in i + 1 until array.size) {
+                if (array[j] > array[j - 1]) {
+                    count++
+                } else {
+                    break
+                }
+            }
+            max = Math.max(count, max)
+        }
+        return max
+    }
 }
 
 fun main() {
-    val res = Med_674_LongestIncreasingSubsequenceII.longestSize(intArrayOf(1,3,5,4,7))
+    val res = Med_674_LongestIncreasingSubsequenceII.longestSize(intArrayOf(1, 3, 5, 4, 7))
     asserts(res, 3)
-    val res1 = Med_674_LongestIncreasingSubsequenceII.longestSize(intArrayOf(2,2,2,2,2))
+    val res1 = Med_674_LongestIncreasingSubsequenceII.longestSize(intArrayOf(2, 2, 2, 2, 2))
     asserts(res1, 1)
 }
