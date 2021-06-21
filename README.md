@@ -20,17 +20,27 @@
 | --- | --- | --- |
 | ✅ | Easy_344_ReverseString | [Solution](src/com/boycoder/problems/string/Easy_344_ReverseString.kt) |
 
-## Array
+## Array & PreSum
 
 | State | Array Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Easy_27_RemoveElement | [2 Solutions](src/com/boycoder/problems/array/Easy_27_RemoveElement.kt) |
+| ✅ | Med_209_MinSizeSubArray | [2 Solutions](src/com/boycoder/problems/array/Med_209_MinSizeSubArray.kt) |
+| ✅ | Med_325_MaxSizeSubArray | [1 Solution](src/com/boycoder/problems/array/Med_325_MaxSizeSubArray.kt) |
+| ✅ | Med_560_SubArrayEqualK | [4 Solution](src/com/boycoder/problems/array/Med_560_SubArrayEqualK.kt) |
+| ✅ | Med_523_ContinuousSubArraySumK | [2 Solution](src/com/boycoder/problems/array/Med_523_ContinuousSubArraySumK.kt) |
+| ✅ | Med_713_SubArrayLessK | [1 Solution](src/com/boycoder/problems/array/Med_713_SubArrayLessK.kt) |
+| ✅ | Med_1248_CountNiceSubArray | [1 Solution](src/com/boycoder/problems/array/Med_1248_CountNiceSubArray.kt) |
+| ✅ | Med_974_SubArraySumDivisibleK | [1 Solution](src/com/boycoder/problems/array/Med_974_SubArraySumDivisiableK.kt) |
 
 ## Pointers
 
 | State | Pointer Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Easy_27_RemoveElement | [2 Solutions](src/com/boycoder/problems/array/Easy_27_RemoveElement.kt) |
+| ✅ | Easy_35_SearchInsertPosition | [4 Solution](src/com/boycoder/problems/pointers/Easy_35_SearchInsertPosition.kt) |
+| ✅ | Med_209_MinSizeSubArray | [2 Solutions](src/com/boycoder/problems/array/Med_209_MinSizeSubArray.kt) |
+| ✅ | Med_560_SubArrayEqualK | [4 Solution](src/com/boycoder/problems/array/Med_560_SubArrayEqualK.kt) |
 
 ## Stack/Queue
 
