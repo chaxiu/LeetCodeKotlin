@@ -18,7 +18,10 @@
 
 | State | String Problems | Solutions |
 | --- | --- | --- |
+| ✅ | Easy_28_ImplementStr | [Solution](src/com/boycoder/problems/string/Easy_28_ImplementStr.kt) |
 | ✅ | Easy_344_ReverseString | [Solution](src/com/boycoder/problems/string/Easy_344_ReverseString.kt) |
+| ✅ | Easy_242_Anagram | [Solution](src/com/boycoder/problems/hash/Easy_242_Anagram.kt) |
+| ✅ | Med_151_ReverseWordInString | [Solution](src/com/boycoder/problems/string/Med_151_ReverseWordInString.kt) |
 
 ## Array & PreSum
 
@@ -47,30 +50,81 @@
 | State | Stack/Queue Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Easy_20_ValidParentheses  | [Solution](src/com/boycoder/problems/stack/Easy_20_ValidParentheses.kt) |
+| ✅ | Easy_225_ImpStackUseQueue  | [Solution](src/com/boycoder/problems/stack/Easy_225_ImpStackUseQueue.kt) |
+| ✅ | Easy_232_ImpQueueUseStack  | [Solution](src/com/boycoder/problems/stack/Easy_232_ImpQueueUseStack.kt) |
+| ✅ | Easy_1047_RemoveDuplicate  | [Solution](src/com/boycoder/problems/stack/Easy_1047_RemoveDuplicate.kt) |
+| ✅ | Med_150_ReversePolishNotation  | [Solution](src/com/boycoder/problems/stack/Med_150_ReversePolishNotation.kt) |
+| ✅ | Med_347_TopKFrequentElements  | [Solution](src/com/boycoder/problems/stack/Med_347_TopKFrequentElements.kt) |
+| ✅ | Hard_239_SlidingWindowMax  | [Solution](src/com/boycoder/problems/stack/Hard_239_SlidingWindowMax.kt) |
+
+## Monotone Stack/Queue
+
+| State | Monotone Stack/Queue Problems | Solutions |
+| --- | --- | --- |
+| ✅ | Easy_155_MinStack  | [Solution](src/com/boycoder/problems/monotone/Easy_155_MinStack.kt) |
+| ✅ | Med_MaxQueue  | [Solution](src/com/boycoder/problems/monotone/Med_MaxQueue.kt) |
+| ✅ | Med_739_DailyTemperatures  | [Solution](src/com/boycoder/problems/monotone/Med_739_DailyTemperatures.kt) |
+| ✅ | Med_1438_LongestSubArrayLimitedAbs  | [Solution](src/com/boycoder/problems/monotone/Med_1438_LongestSubArrayLimitedAbs.kt) |
 
 ## LinkedList
 
 | State | LinkedList Problems | Solutions |
 | --- | --- | --- |
-| ✅ | Easy_203_RemoveLinkedListElements | [Solution](src/com/boycoder/problems/LinkedList/Easy_203_RemoveLinkedListElements.kt) |
+| ✅ | Easy_203_RemoveLinkedListElements | [Solution](src/com/boycoder/problems/linkedList/Easy_203_RemoveLinkedListElements.kt) |
+| ✅ | Easy_206_ReverseLinkedList | [Solution](src/com/boycoder/problems/linkedList/Easy_206_ReverseLinkedList.kt) |
+| ✅ | Med_19_RemoveNthFromEnd | [Solution](src/com/boycoder/problems/linkedList/Med_19_RemoveNthFromEnd.kt) |
+| ✅ | Med_24_SwapNodeInPair | [Solution](src/com/boycoder/problems/linkedList/Med_24_SwapNodeInPair.kt) |
 
 ## HashMap HashSet
 
 | State | Map/Set Problems | Solutions |
 | --- | --- | --- |
 | ✅ | Easy_001_TwoSum | [Solution](src/com/boycoder/problems/hash/Easy_001_TwoSum.kt) |
+| ✅ | Easy_202_HappyNumber | [Solution](src/com/boycoder/problems/hash/Easy_202_HappyNumber.kt) |
+| ✅ | Easy_242_Anagram | [Solution](src/com/boycoder/problems/hash/Easy_242_Anagram.kt) |
+| ✅ | Easy_349_IntersectionTwoArray | [Solution](src/com/boycoder/problems/hash/Easy_349_IntersectionTwoArray.kt) |
+| ✅ | Med_15_3Sum | [Solution](src/com/boycoder/problems/hash/Med_15_3Sum.kt) |
+| ✅ | Med_18_4Sum | [Solution](src/com/boycoder/problems/hash/Med_18_4Sum.kt) |
+| ✅ | Med_383_RansomNote | [Solution](src/com/boycoder/problems/hash/Med_383_RansomNote.kt) |
+| ✅ | Med_454_FourSum | [Solution](src/com/boycoder/problems/hash/Med_454_FourSum.kt) |
 
 ## Tree
 
 | State | Tree Problems | Solutions |
 | --- | --- | --- |
+| ✅ | Easy_94_BinaryTreeInorderTraversal | [Solution](src/com/boycoder/problems/tree/Easy_94_BinaryTreeInorderTraversal.kt) |
 | ✅ | Easy_144_BinaryTreePreorder | [2 Solutions](src/com/boycoder/problems/tree/Easy_144_BinaryTreePreorder.kt) |
+| ✅ | Easy_145_BinaryTreePostorderTraversal | [2 Solutions](src/com/boycoder/problems/tree/Easy_145_BinaryTreePostorderTraversal.kt) |
+| ✅ | Med_102_BinaryTreeLevelOrderTraversal | [2 Solutions](src/com/boycoder/problems/tree/Med_102_BinaryTreeLevelOrderTraversal.kt) |
+| ✅ | Easy_101_SymmetricTree | [Solution](src/com/boycoder/problems/tree/Easy_101_SymmetricTree.kt) |
+| ✅ | Easy_226_InvertBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_226_InvertBinaryTree.kt) |
+| ✅ | Easy_104_MaxDepthBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_104_MaxDepthBinaryTree.kt) |
+| ✅ | Easy_111_MinDepthBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_111_MinDepthBinaryTree.kt) |
+| ✅ | Easy_110_BalancedBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_110_BalancedBinaryTree.kt) |
+| ✅ | Easy_112_PathSum | [Solution](src/com/boycoder/problems/tree/Easy_112_PathSum.kt) |
+| ✅ | Easy_257_BinaryTreePaths | [Solution](src/com/boycoder/problems/tree/Easy_257_BinaryTreePaths.kt) |
+| ✅ | Easy_404_SumOfLeftLeaves | [Solution](src/com/boycoder/problems/tree/Easy_404_SumOfLeftLeaves.kt) |
+| ✅ | Easy_617_MergeTwoBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_617_MergeTwoBinaryTree.kt) |
+| ✅ | Med_106_ConstructBinaryTree | [Solution](src/com/boycoder/problems/tree/Med_106_ConstructBinaryTree.kt) |
+| ✅ | Med_222_CompleteTreeNodeCount | [Solution](src/com/boycoder/problems/tree/Med_222_CompleteTreeNodeCount.kt) |
+| ✅ | Med_513_BottomLeftTreeValue | [Solution](src/com/boycoder/problems/tree/Med_513_BottomLeftTreeValue.kt) |
+| ✅ | Med_654_MaxBinaryTree | [Solution](src/com/boycoder/problems/tree/Med_654_MaxBinaryTree.kt) |
+| ✅ | Med_236_LowestCommonAncestor | [Solution](src/com/boycoder/problems/tree/Med_236_LowestCommonAncestor.kt) |
 
 ## BST
 
 | State | BST Problems | Solutions |
 | --- | --- | --- |
+| ✅ | Easy_108_ArrayToBST | [2 Solutions](src/com/boycoder/problems/bst/Easy_108_ArrayToBST.kt) |
+| ✅ | Easy_700_SearchInBST | [2 Solutions](src/com/boycoder/problems/bst/Easy_700_SearchInBST.kt) |
+| ✅ | Easy_235_LowestCommonAncestorBST | [2 Solutions](src/com/boycoder/problems/bst/Easy_235_LowestCommonAncestorBST.kt) |
+| ✅ | Easy_501_ModeInBST | [2 Solutions](src/com/boycoder/problems/bst/Easy_501_ModeInBST.kt) |
+| ✅ | Easy_530_AbsDifferenceInBST | [2 Solutions](src/com/boycoder/problems/bst/Easy_530_AbsDifferenceInBST.kt) |
 | ✅ | Med_98_ValidateBST | [2 Solutions](src/com/boycoder/problems/bst/Med_98_ValidateBST.kt) |
+| ✅ | Med_450_DeleteInBST | [2 Solutions](src/com/boycoder/problems/bst/Med_450_DeleteInBST.kt) |
+| ✅ | Med_538_BSTToGreaterTree | [2 Solutions](src/com/boycoder/problems/bst/Med_538_BSTToGreaterTree.kt) |
+| ✅ | Med_669_TrimBST | [2 Solutions](src/com/boycoder/problems/bst/Med_669_TrimBST.kt) |
+| ✅ | Med_701_InsertIntoBST | [2 Solutions](src/com/boycoder/problems/bst/Med_701_InsertIntoBST.kt) |
 
 ## Greedy
 
@@ -82,7 +136,20 @@
 
 | State | Back Tracking Problems | Solutions |
 | --- | --- | --- |
+| ✅ | Med_17_LetterCombinationPhoneNum | [3 Solutions](src/com/boycoder/problems/backtrack/Med_17_LetterCombinationPhoneNum.kt) |
+| ✅ | Med_39_CombinationSum | [3 Solutions](src/com/boycoder/problems/backtrack/Med_39_CombinationSum.kt) |
+| ✅ | Med_46_Permutations | [3 Solutions](src/com/boycoder/problems/backtrack/Med_46_Permutations.kt) |
+| ✅ | Med_47_PermutationsII | [3 Solutions](src/com/boycoder/problems/backtrack/Med_47_PermutationsII.kt) |
 | ✅ | Med_077_Combinations | [3 Solutions](src/com/boycoder/problems/backtrack/Med_077_Combinations.kt) |
+| ✅ | Med_40_CombinationSumII | [3 Solutions](src/com/boycoder/problems/backtrack/Med_40_CombinationSumII.kt) |
+| ✅ | Med_216_CombinationSumIII | [3 Solutions](src/com/boycoder/problems/backtrack/Med_216_CombinationSumIII.kt) |
+| ✅ | Med_78_SubSet | [3 Solutions](src/com/boycoder/problems/backtrack/Med_78_SubSet.kt) |
+| ✅ | Med_90_SubSetII | [3 Solutions](src/com/boycoder/problems/backtrack/Med_90_SubSetII.kt) |
+| ✅ | Med_93_RestoreIPAddress | [3 Solutions](src/com/boycoder/problems/backtrack/Med_93_RestoreIPAddress.kt) |
+| ✅ | Med_131_PalindromePartition | [3 Solutions](src/com/boycoder/problems/backtrack/Med_131_PalindromePartition.kt) |
+| ✅ | Med_332_ReconstructItinerary | [3 Solutions](src/com/boycoder/problems/backtrack/Med_332_ReconstructItinerary.kt) |
+| ✅ | Med_491_IncreasingSubSequences | [3 Solutions](src/com/boycoder/problems/backtrack/Med_491_IncreasingSubSequences.kt) |
+| ✅ | Hard_51_NQueens | [3 Solutions](src/com/boycoder/problems/backtrack/Hard_51_NQueens.kt) |
 
 ## Dynamic Programming
 
@@ -157,7 +224,8 @@
 | | Balanced Binary Tree | |
 | | B Tree | |
 | | AVL Tree | |
-| | Union Find | |
+| ✅ | Union Find | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickFind.kt) |
+| ✅ | Union Find | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickUnion.kt) |
 | | Skip List | |
 | | Graph | |
 
@@ -165,7 +233,7 @@
 
 | State | String Matching Algorithm | Code |
 | --- | --- | --- |
-| | Rabin Karp | |
+| ✅ | Rabin Karp | [Solution](src/com/boycoder/problems/string/Easy_28_ImplementStr.kt) |
 | | Boyer-Moore | |
 | | KMP | |
 

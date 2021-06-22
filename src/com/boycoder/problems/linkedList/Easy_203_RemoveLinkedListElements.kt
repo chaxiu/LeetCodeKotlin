@@ -1,4 +1,4 @@
-package com.boycoder.problems.LinkedList
+package com.boycoder.problems.linkedList
 
 import com.boycoder.basis.datastructure.ListNode
 
