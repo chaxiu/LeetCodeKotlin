@@ -65,6 +65,7 @@
 | ✅ | Med_MaxQueue  | [Solution](src/com/boycoder/problems/monotone/Med_MaxQueue.kt) |
 | ✅ | Med_739_DailyTemperatures  | [Solution](src/com/boycoder/problems/monotone/Med_739_DailyTemperatures.kt) |
 | ✅ | Med_1438_LongestSubArrayLimitedAbs  | [Solution](src/com/boycoder/problems/monotone/Med_1438_LongestSubArrayLimitedAbs.kt) |
+| ✅ | Hard_42_TrapRainWater  | [2 Solutions](src/com/boycoder/problems/monotone/Hard_42_TrapRainWater.kt) |
 
 ## LinkedList
 
