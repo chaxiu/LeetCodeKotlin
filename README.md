@@ -224,8 +224,8 @@
 | | Balanced Binary Tree | |
 | | B Tree | |
 | | AVL Tree | |
-| ✅ | Union Find | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickFind.kt) |
-| ✅ | Union Find | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickUnion.kt) |
+| ✅ | Union Find(Quick Find) | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickFind.kt) |
+| ✅ | Union Find(Quick Union) | [Solution](src/com/boycoder/basis/datastructure/UnionFindQuickUnion.kt) |
 | | Skip List | |
 | | Graph | |
 
