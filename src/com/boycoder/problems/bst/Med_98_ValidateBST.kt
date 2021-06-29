@@ -92,6 +92,7 @@ object Med_98_ValidateBST {
             }
         }
 
+        // traversal and check
         var pre = list[0]
         for (i in 1..(list.size - 1)) {
             if (pre >= list[i]) {

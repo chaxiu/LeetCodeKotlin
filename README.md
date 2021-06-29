@@ -105,9 +105,10 @@
 | ✅ | Easy_112_PathSum | [Solution](src/com/boycoder/problems/tree/Easy_112_PathSum.kt) |
 | ✅ | Easy_257_BinaryTreePaths | [Solution](src/com/boycoder/problems/tree/Easy_257_BinaryTreePaths.kt) |
 | ✅ | Easy_404_SumOfLeftLeaves | [Solution](src/com/boycoder/problems/tree/Easy_404_SumOfLeftLeaves.kt) |
+| ✅ | Easy_559_MaxDepthNAryTree | [Solution](src/com/boycoder/problems/tree/Easy_559_MaxDepthNAryTree.kt) |
 | ✅ | Easy_617_MergeTwoBinaryTree | [Solution](src/com/boycoder/problems/tree/Easy_617_MergeTwoBinaryTree.kt) |
 | ✅ | Med_106_ConstructBinaryTree | [Solution](src/com/boycoder/problems/tree/Med_106_ConstructBinaryTree.kt) |
-| ✅ | Med_222_CompleteTreeNodeCount | [Solution](src/com/boycoder/problems/tree/Med_222_CompleteTreeNodeCount.kt) |
+| ✅ | Med_222_CompleteTreeNodeCount | [2 Solutions](src/com/boycoder/problems/tree/Med_222_CompleteTreeNodeCount.kt) |
 | ✅ | Med_513_BottomLeftTreeValue | [Solution](src/com/boycoder/problems/tree/Med_513_BottomLeftTreeValue.kt) |
 | ✅ | Med_654_MaxBinaryTree | [Solution](src/com/boycoder/problems/tree/Med_654_MaxBinaryTree.kt) |
 | ✅ | Med_236_LowestCommonAncestor | [Solution](src/com/boycoder/problems/tree/Med_236_LowestCommonAncestor.kt) |

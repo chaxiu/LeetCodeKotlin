@@ -3,7 +3,7 @@ package com.boycoder.problems.backtrack
 /**
  * @Author: zhutao
  * @datetime: 2021/6/22
- * @desc:
+ * @desc: https://leetcode-cn.com/problems/combination-sum-ii/
  */
 object Med_40_CombinationSumII {
     private val list: MutableList<List<Int>> = mutableListOf()
@@ -32,7 +32,8 @@ object Med_40_CombinationSumII {
     }
 
     /**
-    So, to avoid duplication, we can use sort and nums[i] == nums[i - 1] to check
+     * So, to avoid duplication,
+     * we can use sort and nums[i] == nums[i - 1] to check
      */
     private fun combine(nums: IntArray, target: Int, start: Int) {
         if (sum > target) return

@@ -8,6 +8,7 @@ package com.boycoder.problems.backtrack
 object Med_216_CombinationSumIII {
     private val list: MutableList<List<Int>> = mutableListOf()
     private val path: MutableList<Int> = mutableListOf()
+
     fun combinationSum3(k: Int, n: Int): List<List<Int>> {
         combine(k, n, n, 1)
         return list
@@ -34,7 +35,7 @@ object Med_216_CombinationSumIII {
         for (i in start..9) {
             path.add(i)
             combine(k, n, remain - i, i + 1)
-            path.remove(i)
+            path.removeAt(path.size - 1)
         }
     }
 
@@ -52,7 +53,7 @@ object Med_216_CombinationSumIII {
         for (i in start..9) {
             path.add(i)
             combine(k, n, remain - i, i + 1)
-            path.remove(i)
+            path.removeAt(path.size - 1)
         }
     }
 }

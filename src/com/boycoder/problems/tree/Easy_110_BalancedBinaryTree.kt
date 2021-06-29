@@ -13,9 +13,11 @@ object Easy_110_BalancedBinaryTree {
         return depth != -1
     }
 
-    // use recursion post order
-    // count every left depth and right depth
-    // check if abs(left - right) > 1, if so return -1, means not balanced
+    /**
+     * use recursion post order
+     * count every left depth and right depth
+     * check if abs(left - right) > 1, if so return -1, means not balanced
+     */
     private fun getDepth(root: TreeNode?): Int {
         if (root == null) return 0
 

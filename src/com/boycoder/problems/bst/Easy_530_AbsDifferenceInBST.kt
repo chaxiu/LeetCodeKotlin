@@ -9,9 +9,11 @@ import java.util.*
  * @desc:
  */
 object Easy_530_AbsDifferenceInBST {
+
     // we can store the value only to get more performance
     private var pre:TreeNode? = null
     private var min = Int.MAX_VALUE
+
     fun getMinimumDifference(root: TreeNode?): Int {
         getMin(root)
         return min
@@ -54,6 +56,7 @@ object Easy_530_AbsDifferenceInBST {
         getMin(root.left)
 
         pre?.let {
+            // cur is always larger than pre
             min = Math.min(min, root.value - it.value)
         }
         pre = root

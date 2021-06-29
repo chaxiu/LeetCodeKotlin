@@ -6,8 +6,14 @@ import com.boycoder.basis.datastructure.TreeNode
  * @Author: zhutao
  * @datetime: 2021/6/22
  * @desc:
+ *
+ * 1. Recursion + post order
+ * 2. Maintain every node's parent in map
+ *       and find visit every p node parent put into the set.
+ *       Then visit every q node parent check if into the set.
  */
 object Med_236_LowestCommonAncestor {
+
     fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
         if (root == null || p == null || q == null) return null
         return find(root, p, q)

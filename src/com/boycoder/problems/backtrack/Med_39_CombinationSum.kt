@@ -3,7 +3,7 @@ package com.boycoder.problems.backtrack
 /**
  * @Author: zhutao
  * @datetime: 2021/6/22
- * @desc:
+ * @desc: https://leetcode-cn.com/problems/combination-sum/
  */
 object Med_39_CombinationSum {
     private val list: MutableList<List<Int>> = mutableListOf()

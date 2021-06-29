@@ -1,6 +1,7 @@
 package com.boycoder.problems.tree
 
 import com.boycoder.basis.datastructure.TreeNode
+import java.util.*
 
 /**
  * @Author: zhutao
@@ -19,7 +20,12 @@ object Easy_257_BinaryTreePaths {
         return list
     }
 
+    /**
+     * dfs
+     */
     private fun findPath(root: TreeNode, nodes: MutableList<TreeNode>, list: MutableList<String>) {
+
+        // time to collect result.
         if (root.left == null && root.right == null) {
             val s = nodes.joinToString(separator = "->", transform = {
                 it.value.toString()
@@ -28,12 +34,14 @@ object Easy_257_BinaryTreePaths {
             return
         }
 
+        // find left
         if (root.left != null) {
             nodes.add(root.left!!)
             findPath(root.left!!, nodes, list)
             nodes.remove(root.left) // back tracking
         }
 
+        // find right
         if (root.right != null) {
             nodes.add(root.right!!)
             findPath(root.right!!, nodes, list)

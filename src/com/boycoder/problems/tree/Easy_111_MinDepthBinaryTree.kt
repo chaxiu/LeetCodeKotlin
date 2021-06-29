@@ -13,8 +13,12 @@ object Easy_111_MinDepthBinaryTree {
         return getDepth(root)
     }
 
-    // level traversal
-    // if we meet a leaf node, then return right now
+    /**
+     * level traversal
+     *
+     * We count the depth from 0
+     * and when we meet a leaf node, we stop the counting
+     */
     private fun getDepth(root: TreeNode): Int {
         val queue = ArrayDeque<TreeNode>()
         queue.add(root)
@@ -37,7 +41,11 @@ object Easy_111_MinDepthBinaryTree {
         return depth
     }
 
-    // dfs
+    /**
+     * dfs
+     *
+     * can be optimized using cache
+     */
     private fun getDepth1(root: TreeNode): Int {
         if (root.left == null && root.right == null){
             return 1

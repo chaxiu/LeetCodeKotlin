@@ -33,6 +33,7 @@ object Med_47_PermutationsII {
         val set = hashSetOf<Int>()
 
         for (i in 0 until array.size) {
+            // avoid duplication for the same result
             if (used[i + 10]) {
                 continue
             }

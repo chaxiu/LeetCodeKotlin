@@ -19,6 +19,7 @@ object Easy_062_UniquePath {
 
     // dp
     private fun path3(m: Int, n: Int): Int {
+        // dp with init
         val dp: Array<IntArray> = Array(m + 1){ IntArray(n + 1){1} }
 
         for (i in 2..m) {

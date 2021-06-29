@@ -6,8 +6,12 @@ package com.boycoder.problems.backtrack
  * @desc:
  *
  *     Ideal
- * For the given string, we check if it can be split into several substring, that every substring is palindrome.
- * We need a loop to help us split at index. For every index, we decide how many chars we split, and then save the split result and pass the remain into the recursion.
+ * For the given string,
+ * we check if it can be split into several substring,
+ * that every substring is palindrome.
+ * We need a loop to help us split at index.
+ * For every index, we decide how many chars we split,
+ * and then save the split result and pass the remain into the recursion.
  *
  * eg:                aab         down recursion
  *                 /a  |aa   \        |

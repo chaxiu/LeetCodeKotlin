@@ -8,6 +8,22 @@ import com.boycoder.basis.datastructure.TreeNode
  * @desc:
  */
 object Med_106_ConstructBinaryTree {
+
+
+    /**
+     *                      inorder:  9,3,15,20,7
+     *                      postorder:9,15,7,20,3
+     *
+     *                      9  3  15,20,7
+     *                      9  15,7,20  3
+     *                      |     |     \
+     *                      9     3     15,  20  7
+     *                      9     3     15,7,  20
+     *                                 /    |   \
+     *                                15   20    7
+     *
+     *
+     */
     fun buildTree(inorder: IntArray, postorder: IntArray): TreeNode? {
         if (inorder.size == 0 || postorder.size == 0) return null
 

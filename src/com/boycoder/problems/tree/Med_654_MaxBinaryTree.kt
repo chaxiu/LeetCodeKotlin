@@ -8,6 +8,7 @@ import com.boycoder.basis.datastructure.TreeNode
  * @desc:
  */
 object Med_654_MaxBinaryTree {
+
     fun constructMaximumBinaryTree(nums: IntArray): TreeNode? {
         val size = nums.size
         if (size == 0) return null

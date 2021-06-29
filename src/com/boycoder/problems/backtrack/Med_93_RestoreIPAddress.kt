@@ -9,7 +9,9 @@ package com.boycoder.problems.backtrack
  * This problem is a little bit like palindrome-partitioning
  * Back tracking can be use in partitioning
  *
- * For the loop, we decide how many char to split,from 1 to 3, check valide, then we save the path, and pass the rest of string into the recursion i + 1.
+ * For the loop, we decide how many char to split,
+ * from 1 to 3, check valide, then we save the path,
+ * and pass the rest of string into the recursion i + 1.
  *
  * For the recursion, we check path.size == 4 && start == string.size
  * "25525511135"
@@ -60,11 +62,7 @@ object Med_93_RestoreIPAddress {
             return s.length == 1
         } else {
             val num = s.toInt()
-            if (num <= 255 && num >= 0) {
-                return true
-            } else {
-                return false
-            }
+            return num in 0..255
         }
     }
 }

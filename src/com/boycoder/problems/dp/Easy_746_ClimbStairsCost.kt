@@ -32,7 +32,7 @@ object Easy_746_ClimbStairsCost {
     }
 
     /**
-    To get to n, we need to pay: Math.min(dfs(n - 1) + cost[n], dfs(n - 2) + cost[n])
+     * To get to n, we need to pay: Math.min(dfs(n - 1) + cost[n], dfs(n - 2) + cost[n])
      */
     private fun min1(n: Int): Int {
         if (n == 0) return cost[0]

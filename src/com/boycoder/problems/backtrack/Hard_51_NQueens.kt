@@ -6,9 +6,11 @@ package com.boycoder.problems.backtrack
  * @desc:
  *
  * Ideal
- * For a n*n chessboard, we need to take n step. And for every step, we can choose i = [0, n); j = [0, n)
+ * For a n*n chessboard, we need to take n step.
+ * And for every step, we can choose i = [0, n); j = [0, n)
  *
- * We use loop go through the col, and recursion go through the row, and for every step, we check validation.
+ * We use loop go through the col, and recursion go through the row,
+ * and for every step, we check validation.
  */
 object Hard_51_NQueens {
     private val list: MutableList<MutableList<String>> = mutableListOf()
