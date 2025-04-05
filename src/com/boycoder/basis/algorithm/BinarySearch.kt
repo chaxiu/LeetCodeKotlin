@@ -17,7 +17,7 @@ object BinarySearch {
         var end = array.size - 1
         var mid = 0
 
-        // begin = end is a valid case;
+        // when end = array.size - 1, begin = end = array -1, is a valid case;
         while (begin <= end) {
             mid = begin + ((end - begin) /2)
 
@@ -39,34 +39,74 @@ object BinarySearch {
     }
 
     /**
-     * find the last matching index, return -1, if there is no target
+     * Another binary search;
+     */
+    fun search2(array: IntArray, target: Int): Int {
+        var start = 0
+        var end = array.size
+        var mid = 0
+
+        // because end = array.size, array[array.size] is not valid;
+        // so we use < instead of <=;
+        while(start < end) {
+            // avoid overflow
+            mid = start + ((end - start) /2)
+
+            // target is in the right half of the array;
+            if (array[mid] < target) {
+                start = mid + 1
+            } else if (array[mid] > target) { // target is in the left half of the array;
+                // because we use < as while loop condition, we need to use mid instead of (mid - 1);
+                end = mid
+            } else {
+                return mid
+            }
+        }
+        return -1
+    }
+
+    /**
+     * find the last matching index in a sorted array, return -1, if there is no target
      */
     fun searchLastIndex(array: IntArray, target: Int): Int {
         var begin = 0
         var end = array.size - 1
         var mid = 0
 
+        // we use <= because begin = end = array.size -1 is a valid case;
         while (begin <= end) {
             mid = begin + ((end - begin) /2)
 
+            // target is in the right half of the array;
             if (array[mid] < target) {
+                // we already know array[mid] is not the target;
                 begin = mid + 1
-            } else if (array[mid] > target) {
+            } else if (array[mid] > target) { // target is in the left half of the array;
+                // we already know array[mid] is not the target;
                 end = mid - 1
             } else {
+                // here is the key, when we find the target, we need to make begin = targetIndex + 1;
+                // and then let end slowly move to begin;
+                // when begin = end = targetIndex + 1, array[mid] > target;
+                // so end = mid - 1 = targetIndex;
                 begin = mid + 1
             }
         }
 
+        // There is no target in the array;
         if (end < 0 || array[end] != target) {
             return -1
         }
-
         return end
+        // or we can change to:
+//        if (end >= 0 && end < array.size && array[end] == target) {
+//            return end
+//        }
+//        return -1
     }
 
     /**
-     * find the first matching index, return -1, if there is no target
+     * find the first matching index in a sorted array, return -1, if there is no target
      */
     fun searchFirstIndex(array: IntArray, target: Int): Int {
         var begin = 0
@@ -81,10 +121,14 @@ object BinarySearch {
             } else if (array[mid] > target) {
                 end = mid - 1
             } else {
+                // same here. let end = targetIndex - 1;
+                // then array[mid] < target always true, until begin = end = targetIndex - 1
+                // this time, begin = mid + 1 = targetIndex;
                 end = mid - 1
             }
         }
 
+        // check the index is valid.
         if (begin >= array.size || array[begin] != target) {
             return -1
         }
@@ -134,4 +178,6 @@ fun main() {
     asserts(res8, 0)
     val res9 = BinarySearch.searchInsertIndex(intArrayOf(1,2,3,3,3,4,5,6), 3)
     asserts(res9, 5)
+    val res10 = BinarySearch.searchLastIndex(intArrayOf(1,2,3,4,5), 3)
+    asserts(res10, 2)
 }
