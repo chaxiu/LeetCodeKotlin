@@ -10,25 +10,31 @@ import com.boycoder.utils.asserts
 object BinarySearch {
 
     /**
-     * find target index, return -1 if there no target in array
+     * find target index, return -1 if there is no target in sorted array
      */
     fun search(array: IntArray, target: Int): Int {
         var begin = 0
         var end = array.size - 1
         var mid = 0
 
+        // begin = end is a valid case;
         while (begin <= end) {
             mid = begin + ((end - begin) /2)
 
+            // array[mid] < target, means target is in the right half of array;
             if (array[mid] < target) {
+                // use mid + 1, because we already know array[mid] is not the target;
                 begin = mid + 1
+                // array[mid] > target, means target is in the left half of the array;
             } else if (array[mid] > target) {
+                // use mid - 1, because we already know array[mid] is not the target;
                 end = mid - 1
             } else {
+                // find it!
                 return mid
             }
         }
-
+        // not found
         return -1
     }
 
